@@ -17,7 +17,7 @@ def sql_connection(path) -> object:
     """
     path: str = 'data/raw_data_project_m1.db'
     conn = sqlite3.connect(path)
-    print('Connecting to database')
+    print('Connecting to database...')
     sql_code = ('''
           SELECT personal_info.uuid,country_info.country_code, country_info.rural, career_info.normalized_job_code
           FROM personal_info
@@ -74,7 +74,7 @@ def get_jobs_api(data_to_api) -> object:
         data_to_api.loc[data_to_api['normalized_job_code'] == uuid, 'Job Title'] = title
 
         # changing null values in Job Title column.
-    data_to_api['Job Title'] = data_to_api['Job Title'].fillna('No job')
+    data_to_api['Job Title'] = data_to_api['Job Title'].fillna('No Job')
 
     print('Jobs data from API added!')
 

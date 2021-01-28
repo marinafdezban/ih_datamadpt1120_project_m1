@@ -33,7 +33,7 @@ def main(arguments):
 
 
 if __name__ == '__main__':
-    print('Starting project 1...')
+    print('Starting Project 1...')
 
     my_arguments = argument_parser()
     main(my_arguments)
