@@ -6,8 +6,7 @@
 
 Here you can find a study on how data professions are distributed across the European Union with socio-demographic information, which can be very helpful if you really want to introduce yourself into this new field of knowledge. 
 
-
-[Image](../images/dataworld.jpg)
+![Image](https://www.masterbigdataonline.com/images/big_data_matrix.jpg)
 
 > Blockquote
 
