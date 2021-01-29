@@ -21,16 +21,20 @@ def main(arguments):
     add_jobs = acq.get_jobs_api(data_table)
     rename_col = wra.clean_rural(add_jobs)
     add_countries = acq.get_country_data(rename_col)
-    add_new_columns = ana.adding_columns(add_countries)
+    results = ana.adding_columns(add_countries)
 
-    # exporting table
+    # exporting table and visuals
 
-    rep.export_table(add_new_columns, arguments.country)
+    rep.export_table(results, arguments.country)
+    fig = rep.visual_matplotlib(results)
+    rep.save_chart(fig, title)
+    print('You may find your results in the folder ./results ')
 
 
 if __name__ == '__main__':
     print('Starting Project 1...')
 
+    title = 'Project 1'
     my_arguments = argument_parser()
     main(my_arguments)
 
