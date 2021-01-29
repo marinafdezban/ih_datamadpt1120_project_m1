@@ -29,18 +29,7 @@ Very easy! First, you need to know which information are you looking for... Do y
 
 ## :bar_chart: What information this study will provide you?
 
-Country | Job Title | Rural | Quantity | Percentage
-
---- | --- | ---
-
-Spain | Data Architect | Urban | 2 | 0.14%
-
-France | Data Officer| Rural | 5 | 2.06%
-
-Great Britain | Data Coordinator | Urban | 9 | 4%
-
-... | ... | ... | ... | ...
-
+You will find information about Countries, Job Titles, if they belong to a rural or urban area, Quantity and Percentage. 
 
 **:round_pushpin: Data Sources**
 
@@ -48,6 +37,15 @@ Great Britain | Data Coordinator | Urban | 9 | 4%
 * **API** with information regarding data jobs. This API is from [Open Skills Project](http://dataatwork.org/data/).
 * **Web Scraping** countries information from [Eurostat website](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes).
 
+
+## :bar_chart: Technology Stack
+
+* Python
+* sqlalchemy
+* Pandas
+* Numpy
+* Requests
+* Argparse
 
 ## :open_file_folder: Folder Structure
 
