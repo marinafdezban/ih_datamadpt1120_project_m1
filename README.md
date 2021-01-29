@@ -15,12 +15,14 @@ Here you can find a study on how data professions are distributed across the Eur
 
 Very easy! First, you need to know which information are you looking for... Do you want to know how data jobs are distributed across all European countries, or just about one specific country?
 
+**EU countries**
 ``` 
-EU countries: python main.py -p /data/raw_data_project_m1.db
+python main.py -p /data/raw_data_project_m1.db
 ```
 
+**A specific country**
 ``` 
-A specific country: python main.py -p /data/raw_data_project_m1.db -c {write the country to want to get info from}
+python main.py -p /data/raw_data_project_m1.db -c {write the country to want to get info from}
 ```
 
 ## :bar_chart: What information this study will provide you?
