@@ -10,8 +10,8 @@ def argument_parser():
     parse arguments to script
     """
     parser = argparse.ArgumentParser(description='getting data from a survey')
-    parser.add_argument("-p", "--path", help="specify path of the database", type=str, required=True)
-    parser.add_argument("-c", "--country", help="specify country for the results", default="all countries", type=str)
+    parser.add_argument("-p", "--path", help="specify path", type=str, required=True)
+    parser.add_argument("-c", "--country", help="choose a specific EU country", default="all countries", type=str)
     args = parser.parse_args()
     return args
 
