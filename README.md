@@ -41,6 +41,7 @@ You will find information about Countries, Job Titles, if they belong to a rural
 * Pandas
 * Numpy
 * Requests
+* Bs4
 * Argparse
 
 ## :open_file_folder: Folder Structure
