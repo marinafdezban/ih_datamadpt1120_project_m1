@@ -17,10 +17,6 @@ def argument_parser():
 
 
 def main(arguments):
-    """
-    :type arguments: object
-    """
-
     data_table = acq.sql_connection(arguments.path)
     add_jobs = acq.get_jobs_api(data_table)
     rename_col = wra.clean_rural(add_jobs)

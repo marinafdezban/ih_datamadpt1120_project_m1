@@ -74,7 +74,7 @@ def get_jobs_api(data_to_api) -> object:
         data_to_api.loc[data_to_api['normalized_job_code'] == uuid, 'Job Title'] = title
 
         # changing null values in Job Title column.
-    data_to_api['Job Title'] = data_to_api['Job Title'].fillna('No Job')
+    data_to_api['Job Title'] = data_to_api['Job Title'].fillna('Not currently working')
 
     print('Jobs data from API added!')
 
