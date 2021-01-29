@@ -8,23 +8,19 @@ Here you can find a study on how data professions are distributed across the Eur
 
 ![Image](https://www.masterbigdataonline.com/images/big_data_matrix.jpg)
 
-> Blockquote
 
 
-## :woman_technologist: How can I get this information?
+
+## :woman_technologist: How can you get this information?
 
 Very easy! First, you need to know which information are you looking for... Do you want to know how data jobs are distributed across all European countries, or just about one specific country?
 
 ``` 
-
-**EU countries** :arrow_right: python main.py -p /data/raw_data_project_m1.db
-
+EU countries: python main.py -p /data/raw_data_project_m1.db
 ```
 
 ``` 
-
-**A specific country** :arrow_right: python main.py -p /data/raw_data_project_m1.db -c {write the country to want to get info from}
-
+A specific country: python main.py -p /data/raw_data_project_m1.db -c {write the country to want to get info from}
 ```
 
 ## :bar_chart: What information this study will provide you?
@@ -38,7 +34,7 @@ You will find information about Countries, Job Titles, if they belong to a rural
 * **Web Scraping** countries information from [Eurostat website](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes).
 
 
-## :bar_chart: Technology Stack
+## :chart_with_upwards_trend: Technology Stack
 
 * Python
 * sqlalchemy
