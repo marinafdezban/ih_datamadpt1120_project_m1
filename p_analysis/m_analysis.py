@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def adding_columns(raw_data) -> object:
     print('Adding some new columns to dataframe')
     rows_counts = dict(raw_data['Job Title'].value_counts())

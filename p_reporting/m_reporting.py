@@ -29,8 +29,8 @@ def export_table(raw_data_df, country) -> object:
 def visual_matplotlib(raw_data_df):
     print('Creating a chart...')
     quantity_mean = raw_data_df['Quantity'].mean()
-    list_countries = raw_data_df['Country'].tolist()
-    quantity = raw_data_df['Quantity'].tolist()
+    list_countries = raw_data_df['Country'].tail(5)
+    quantity = raw_data_df['Quantity'].tail(5)
     fig, ax = plt.subplots(figsize=(16, 8))
     ax.barh(list_countries, quantity, color='#644A84')
     plt.style.use('ggplot')
