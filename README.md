@@ -56,8 +56,10 @@ You will find information about Countries, Job Titles, if they belong to a rural
     ├── requirements.txt
     ├── README.md
     ├── main.py
-    ├── notebooks
+    ├── presentation
     │   └── final.ipynb
+    ├── notebooks
+    │   └── dataproject1.pdf
     ├── p_acquisition
     │   ├── __init__.py
     │   └── m_acquisition.py
