@@ -22,7 +22,7 @@ python main.py -p /data/raw_data_project_m1.db
 
 **A specific country**
 ``` 
-python main.py -p /data/raw_data_project_m1.db -c {write the country to want to get info from}
+python main.py -p /data/raw_data_project_m1.db -c {write the country you want to get info from}
 ```
 
 ## :bar_chart: What information this study will provide you?
